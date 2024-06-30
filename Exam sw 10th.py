@@ -25,7 +25,7 @@ def qLabel(j):
 def savescore():
     global score
     global t
-    with open("/home/vaheeda/trendterm1/trend10a.txt","a") as f:
+    with open("/home/trend10a.txt","a") as f:
         data=t.get()+"  "+str(score)+"\n"
         f.write(data)
         f.close()
